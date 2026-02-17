@@ -1,0 +1,64 @@
+/* Goldenkat Bank - Premium Golden Theme */
+body {
+    background-color: #f5e8a7; /* Slightly golden yellow */
+    color: #3c2f00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #d4af37 !important; /* Rich gold */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #3c2f00 !important;
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.2);
+    background-color: white;
+}
+
+.btn-gold {
+    background-color: #d4af37;
+    color: #3c2f00;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-gold:hover {
+    background-color: #c39a2b;
+    color: white;
+}
+
+.table {
+    background-color: white;
+}
+
+.form-control:focus {
+    border-color: #d4af37;
+    box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.25);
+}
+
+h1, h2, h3 {
+    color: #3c2f00;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #d4af37;
+    color: #3c2f00;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+}
